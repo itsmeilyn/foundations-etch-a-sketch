@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid black;
+  width: 256px;
+  height: 256px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid {
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  display: inline-block;
+}
